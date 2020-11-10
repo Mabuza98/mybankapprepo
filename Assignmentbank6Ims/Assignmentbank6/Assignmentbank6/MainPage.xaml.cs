@@ -24,6 +24,9 @@ namespace Assignmentbank6
 
             var account = myNewCustomer.ApplyForBankAccount();
             account.DepositMoney(1500, DateTime.Now, "Stipend");
+
+            // Example of a code change
+
         }
 
         private void Button_Clicked(object sender, EventArgs e)
