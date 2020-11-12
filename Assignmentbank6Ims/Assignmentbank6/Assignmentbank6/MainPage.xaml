@@ -9,12 +9,12 @@
 
             <Label Text="FNB " HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <Entry x:Name=" DepositAmount" Placeholder="Enter amount" Keyboard="Numeric" />
-        <Entry x:Name=" DepositReason" Placeholder="give reason" />
+        <Entry x:Name="DepositAmount" Placeholder="Enter amount" Keyboard="Numeric" />
+        <Entry x:Name="DepositReason" Placeholder="Give reason" />
         <Button Text="deposit"  Clicked="Button_Clicked"/>
 
-        <Entry x:Name="WithdrawAmount" Placeholder="enter amount" Keyboard="Numeric"/>
-        <Entry x:Name="WithdrawReason" Placeholder="give reason" />
+        <Entry x:Name="WithdrawAmount" Placeholder="Enter amount" Keyboard="Numeric"/>
+        <Entry x:Name="WithdrawReason" Placeholder="Give reason" />
         <Button Text="withdraw" Clicked="Button_Clicked_1" />
         <Button Text="history" Clicked="Button_Clicked_2" />
 
